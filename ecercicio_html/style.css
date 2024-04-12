@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    background-color: beige;
+    color: red;
+    text-align: justify;
+}
+
+.botao {
+    background-color: rgb(176, 183, 247);
+}
+
+.botaoap{
+    background-color: rgb(236, 121, 121);
+}
