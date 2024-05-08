@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Validação</h1>
+        
+    </header>
+
+    <div>
+        <p>Coloque dois números, caso o primeiro (número A) seja menor que o número B (segundo número), o formulário será validado, se não estará incorreto.</p>
+        <p>Vamos testar?</p>
+        <form id="validacao">
+            <p><input type="number" placeholder="Número A" id="numero-a"></p>
+            <p><input type="number" placeholder="Número B" id="numero-b"></p>
+            <p><input type="button" value="Submeter" id="submeter" onclick="enviar()"></p>
+        </form>
+
+        <div id="mensagem"></div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
